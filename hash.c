@@ -14,7 +14,7 @@ A program created to manage a list of students, using an hash function to store 
 #define SIZE_HASH 50
 #define EMPTY_REG "0"
 #define DELETE_REG "-1"
-#define ZERO 48 /* VALOR VALUE OF THE NUMBER ZERO */
+#define ZERO 48 /* VALUE OF THE NUMBER ZERO */
 
 
 typedef struct {
@@ -28,7 +28,6 @@ typedef struct {
 /* MENUS */
 void MainMenu() {
 	system("clear");
-	printf("\n**ESTGF**\n");
 	printf("\n1.Insert");
 	printf("\n2.Delete");
 	printf("\n3.Edit");
