@@ -1,3 +1,6 @@
+#ifndef STACK_DYNAMIC_H
+#define STACK_DYNAMIC_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "types.h"
@@ -30,3 +33,5 @@ NodeStack* TopStack(Stack*);
 
 /* DISPLAY OF THE INFO OF ALL THE ELEMENTS ON THE STACK */
 void PrintStack(Stack*);
+
+#endif

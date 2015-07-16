@@ -11,6 +11,10 @@ typedef int boolean;
 
 typedef int position;
 
+typedef int key;
+
+typedef int level;
+
 typedef int TYPE;
 
 
@@ -71,5 +75,15 @@ typedef struct  {
 	int count;
 } DoubleLinkedList;
 
+
+
+typedef struct NODE_TREE NodeTree;
+
+struct NODE_TREE {
+	TYPE info;
+	int factor; //BALANCING FACTOR [IN A BALANCED TREE, IT MUST BE -1, 0, 1]
+	NodeTree* left;
+	NodeTree* right;
+};
 
 #endif
